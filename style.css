@@ -1,0 +1,50 @@
+h2 :hover {
+    color: red;
+}
+h2[class=subtitle] {
+    color: blue;
+}
+#services {
+    color: green;
+}
+li:nth-child(2) {
+    color: steelblue;
+}
+/* li:only-child {
+    color: tomato;
+} */
+/* #google-link:link { 
+    color:blue
+
+}
+#google-link:visited {
+    color: red;
+} */
+
+h2 + a {
+    color: red;
+}
+
+textarea ~ button {
+    color: purple;
+}
+
+ul > li {
+    color:blue;
+}
+ul li {
+    color: green
+}
+img[src*="../img/"] {
+	border: 10px solid black;
+}
+h2[class~=article-subtitle]{
+    background: green;
+}
+/* 
+CSS general rule
+selector {
+    proprety: value;
+    proprety2: value2;
+}
+ */
